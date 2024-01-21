@@ -1,4 +1,4 @@
-### Máscaras de Rede IPv4 em Detalhes
+### Máscaras de Rede IPv4
 
 Em redes IPv4, uma máscara de rede é uma ferramenta crucial para dividir endereços IP em duas partes distintas: a parte da rede e a parte do host. A máscara de rede é representada por uma sequência de bits contínuos, onde os bits '1' indicam a parte da rede, e os bits '0' indicam a parte do host.
 Existem máscaras de rede padrão e máscaras de rede de comprimento variável (CIDR), representadas por uma notação de barra (/) seguida pelo número de bits dedicados à identificação da rede.

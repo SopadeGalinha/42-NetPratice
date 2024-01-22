@@ -21,16 +21,19 @@ Reservada para multicast, onde um pacote é enviado de um emissor para vários r
 
 ### Classe E
 Reservada para fins experimentais e não é usada para endereçamento público regular.
-
-
-| Classe | 1º Octeto    | Máscara Padrão | Faixa de Endereços          | Nº. de Redes    | Hosts por Rede           | Finalidade                           |
-|:------:|:------------:|:--------------:|:---------------------------:|:---------------:|:------------------------:|:------------------------------------:|
+ 
+<br>
+<br>
+ 
+| Classe | 1º Octeto      | Máscara Padrão | Faixa de Endereços          | Nº. de Redes    | Hosts por Rede           | Finalidade                           |
+|:------:|:--------------:|:--------------:|:---------------------------:|:---------------:|:------------------------:|:------------------------------------:|
 | `A`    | 0	a	127   | 255.0.0.0      | 1.0.0.0 a 126.0.0.0         | 128             | 16,777,214               | Grandes organizações                 |
 | `B`    | 128	a	191   | 255.255.0.0    | 128.0.0.0 a 191.255.0.0     | 16,384          | 65,534                   | Redes de médio porte                 |
 | `C`    | 192	a	223   | 255.255.255.0  | 192.0.0.0 a 223.255.255.0   | 2,097,152       | 254                      | Redes pequenas                       |
 |  D     | 224	a	239   | Não aplicável  | 224.0.0.0 a 239.255.255.255 | Não aplicável   | Não aplicável            | Multicast                            |
 |  E     | 240	a	255   | Não aplicável  | 240.0.0.0 a 255.255.255.255 | Não aplicável   | Não aplicável            | Reservado para fins experimentais    |
 
+<br>
 
 ## Comunicação em Redes
 
@@ -50,9 +53,12 @@ Reservada para fins experimentais e não é usada para endereçamento público r
    - Comunicação de um remetente para todos os dispositivos na rede.
    - **Observação:** Menos comum em redes modernas devido à propensão para gerar tráfego desnecessário.
 
+<br>
+
 ## IPs Restritos, Privados e Reservados
 
 Além das classes tradicionais de endereçamento IP, é importante considerar categorias especiais de IPs destinadas a cenários específicos. Esses endereços são reservados para propósitos especiais e não são roteados publicamente na internet. Aqui estão algumas categorias notáveis:
+
 
 ### 1. Loopback (127.0.0.0 a 127.255.255.255)
 - **Descrição:** Reservado para comunicação interna em um único dispositivo. O endereço mais comum é 127.0.0.1, utilizado para acessar o próprio dispositivo (localhost).
@@ -76,6 +82,8 @@ Além das classes tradicionais de endereçamento IP, é importante considerar ca
 - **Descrição:** Utilizado para transmitir dados para todos os dispositivos na rede. No entanto, é menos comum em redes modernas devido à propensão para gerar tráfego desnecessário.
 
 Esses IPs reservados desempenham papéis críticos em cenários específicos, como comunicação interna, configuração automática, documentação e multicast.
+
+<br>
 
 ## Identificação de Rede e Host
 

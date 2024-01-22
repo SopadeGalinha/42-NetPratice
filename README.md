@@ -23,7 +23,7 @@ Reservada para multicast, onde um pacote é enviado de um emissor para vários r
 Reservada para fins experimentais e não é usada para endereçamento público regular.
 
 
-| Classe | 1º Octeto    | Faixa de Endereços          | Máscara Padrão | Número de Redes | Número de Hosts por Rede | Finalidade                        |
+| Classe | 1º Octeto    | Faixa de Endereços          | Máscara Padrão | Número de Redes | Hosts por Rede | Finalidade                        |
 |:------:|:------------:|:---------------------------:|:--------------:|:---------------:|:------------------------:|:---------------------------------:|
 | `A`    |	0	a	127	| 1.0.0.0 a 126.0.0.0         | 255.0.0.0      | 128             | 16,777,214               | Grandes organizações              |
 | `B`    |	128	a	191	| 128.0.0.0 a 191.255.0.0     | 255.255.0.0    | 16,384          | 65,534                   | Redes de médio porte              |

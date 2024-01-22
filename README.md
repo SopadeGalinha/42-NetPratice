@@ -23,13 +23,13 @@ Reservada para multicast, onde um pacote é enviado de um emissor para vários r
 Reservada para fins experimentais e não é usada para endereçamento público regular.
 
 
-| Classe | 1º Octeto    | Faixa de Endereços          | Máscara Padrão | Número de Redes | Hosts por Rede | Finalidade                        |
-|:------:|:------------:|:---------------------------:|:--------------:|:---------------:|:------------------------:|:---------------------------------:|
-| `A`    |	0	a	127	| 1.0.0.0 a 126.0.0.0         | 255.0.0.0      | 128             | 16,777,214               | Grandes organizações              |
-| `B`    |	128	a	191	| 128.0.0.0 a 191.255.0.0     | 255.255.0.0    | 16,384          | 65,534                   | Redes de médio porte              |
-| `C`    |	192	a	223	| 192.0.0.0 a 223.255.255.0   | 255.255.255.0  | 2,097,152       | 254                      | Redes pequenas                    |
-|  D     |	224	a	239	| 224.0.0.0 a 239.255.255.255 | Não aplicável  | Não aplicável   | Não aplicável            | Multicast                         |
-|  E     |	240	a	255	| 240.0.0.0 a 255.255.255.255 | Não aplicável  | Não aplicável   | Não aplicável            | Reservado para fins experimentais |
+| Classe | 1º Octeto    | Máscara Padrão | Faixa de Endereços          | Nº. de Redes    | Hosts por Rede           | Finalidade                           |
+|:------:|:------------:|:--------------:|:---------------------------:|:---------------:|:------------------------:|:------------------------------------:|
+| `A`    | 0	a	127   | 255.0.0.0      | 1.0.0.0 a 126.0.0.0         | 128             | 16,777,214               | Grandes organizações                 |
+| `B`    | 128	a	191   | 255.255.0.0    | 128.0.0.0 a 191.255.0.0     | 16,384          | 65,534                   | Redes de médio porte                 |
+| `C`    | 192	a	223   | 255.255.255.0  | 192.0.0.0 a 223.255.255.0   | 2,097,152       | 254                      | Redes pequenas                       |
+|  D     | 224	a	239   | Não aplicável  | 224.0.0.0 a 239.255.255.255 | Não aplicável   | Não aplicável            | Multicast                            |
+|  E     | 240	a	255   | Não aplicável  | 240.0.0.0 a 255.255.255.255 | Não aplicável   | Não aplicável            | Reservado para fins experimentais    |
 
 
 ## Comunicação em Redes
